@@ -48,16 +48,16 @@ print('''
 |.','          /%%%%%%%%%%%%%%%\          ','.|
 |;____________/%%%%%%%%%%%%%%%%%\____________;|
   ''')
-choice1 = input("left or right  ")
+choice1 = input('You\'ve reached a fork in the road. Type "left" or "right"  ')
 
 if (choice1.lower() == "left"):
   print('''
   
   
   ''')
-  choice2 = input("swim or wait  ")
+  choice2 = input('You\'ve come to a lake with an island in the middle of it. You can choose to wait for a boat or swim.Type "swim" or "wait"  ')
   if (choice2.lower() == "wait"):
-    choice3 = input("Which door? red, yellow, blue  ")
+    choice3 = input('The boat lands on the island. you find a building with a sign that says "treasur inside". You enter to find a room with three doors. Type "red", "yellow" or "blue" to choose a door.  ')
     if (choice3.lower() == "red"):
       print('''
                             ==(W{==========-      /===-                        
@@ -90,7 +90,7 @@ if (choice1.lower() == "left"):
   ' ') '( (/                                                                   
     '   '  `
       ''')
-      print("Burned by a firebreathing dragon and his dragonrider Jeff.\nGame Over.")
+      print("You enter the red door and the smell of sulfur enters your nostrils.\n You hear the sound of meat being cooked and a sword being sharpened.\n You look up to see a huge dragon with a half naked man on his back.\n Fire reigns down on you!\nYou\'ve been burned by a firebreathing dragon and his dragonrider Jeff.\nGame Over.")
     elif (choice3.lower() == "blue"):
       print('''
      .-----.
@@ -171,7 +171,7 @@ if (choice1.lower() == "left"):
          `---'`   `'----'`
       
       ''')
-      print("Youdie\nGame over")
+      print("You die\nGame over")
   else:
     print('''
     _________         .    .
